@@ -225,6 +225,8 @@ padding-top: 0%;}
 }
     
 
+
+
  .img2>.img-fluid {  position: absolute;}
 
 
@@ -296,5 +298,158 @@ font-weight: 400;}
 
 
 
+/*----mobile view--*/
+
+@media only screen and (max-width:  800px) {
+
+.navbar-nav {
+      
+    display: block !important;
+        position: relative;
+        right: -28%;
+        padding-top: 6%;
+        position: 63% 22% !important;
+        list-style: none;}
 
 
+.nav-item {
+    font-size: 18px;
+    padding-top: 7%;;}
+
+
+ .log-in {
+                    display: flex!important;
+                    align-items: center;
+                    align-content: space-between;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+
+
+ .nav-link {color: #0e0e0e !important;
+        font-weight: 400 !important;}
+
+
+#navbarSupportedContent {
+    background-color: #fff !important;
+    width: 50% !important;
+    border-radius: 10px;
+   ;}
+
+
+.sign {
+    color: #fff !important;
+    display: inline-block;
+    background-color: #ff4c59 !important;
+}
+
+.navbar-collapse {width: 20px;}
+
+
+.intro-text{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 15% 14%;}
+
+#h1 {
+    font-size: 24px; 
+   font-weight: 800;;}
+
+.img1 {justify-content: center !important;}
+
+ .img1>.img-fluid {
+    display: none;
+    }
+ 
+.imgII {
+    padding-top: 100px;
+    max-width: 100%;
+    padding-bottom: 50px;
+    height: auto;}
+    
+.text {padding-right: 10% !important;}
+
+
+.first-heading {font-size: 28px;
+    text-align: center;
+    font-weight: bold;}
+
+
+.phone{padding-top: 59%;}
+
+
+.second {padding-top: 10%;
+    height: 460px !important;
+    padding-top: 25%;
+    background-size: cover;
+    background-position: 50% 2%;
+    height: 200px;
+    padding-top: 25%;}
+
+
+.third-text {text-align: center;
+    padding-left: 10% !important;
+}
+
+
+
+.img2>.img-fluid {position: relative;
+
+    bottom: 0%;
+    top: -328px;
+    margin-top: 7%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.second-text {text-align: center;}
+
+
+
+
+.third-heading {font-size: 28px;
+    text-align: center;
+    font-weight: bold;}
+
+
+    .img3>.img-fluid {
+    display: none;
+    
+    }
+
+.imgIII {max-width: 100%;
+    padding-bottom: 50px;
+              height: auto;}
+
+}
+
+
+@media only screen and (min-width:  800px) {
+.imgIII {display: none;}
+
+.imgII  {display: none;}
+    
+}
+
+.footer {height: auto;
+             text-align: center;
+ }
+
+
+ .img4>.img-fluid {padding-bottom: 30px;}
+
+
+
+
+
+
+
+ @media only screen and (max-width:  1000px){
+
+.second-text {padding-top: 10%;}
+ }
+
+
+
+ 
