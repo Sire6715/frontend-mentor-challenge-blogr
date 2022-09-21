@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Quicksand:wght@300;400&display=swap');*{font-family: 'Fredoka', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    overflow-x:hidden
   box-sizing: border-box;}
 
 html {scroll-behavior: smooth;
